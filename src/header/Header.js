@@ -42,7 +42,7 @@ export default function Header() {
         <a class="nav-link " href="/shcart">ตะกร้าสินค้า</a>
       </li>
     </ul>
-    <form class="form-inline my-2 my-lg-0">
+    <form class="form-inline my-2 my-lg-0 d-flex justify-content-center">
       <input type="text" class="form-control mr-sm-2" placeholder="Search" aria-label="Search" onChange={e => setSearch(e.target.value)}/>
       <Link to={`/search/${search}`}><button class="btn btn-outline-success my-2 my-sm-0" type="submit" >Search</button></Link>
     </form>
