@@ -1,12 +1,12 @@
 
 .navbar{
-    color: white;
+    /* color: white; */
     background-color: rgb(43, 53, 99);
-    height: 5rem;
+    /* height: 5rem; */
     box-shadow: 0 1px 5px 3px rgba(255, 255, 255, 0.3);
 }
 .brand{
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-weight: bold;
     font-size: 30px;
     margin: 20px;
@@ -20,6 +20,12 @@
     text-decoration: none;
 }
 .nav-link{
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+.nav-link:hover{
     color: rgb(255, 255, 255);
     font-weight: bold;
     text-decoration: none;
