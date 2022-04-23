@@ -1,0 +1,293 @@
+.container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    /* background-color: brown; */
+    
+}
+.contentBx{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    /* background-color: rgb(247, 240, 240); */
+    min-height: 60%;
+    width: 100%;
+    align-items: center;
+    /* border-radius: 5px; */
+    /* border-top-right-radius: 5px; */
+    /* box-shadow: 1px 1px 1px 1px rgba(50,50,50,.1) inset; */
+    font-family:'Roboto', sans-serif;
+}
+.titlePage{
+    font-family:'Roboto', sans-serif;
+    font-weight: bold;
+    /* background-color: aliceblue; */
+    margin-top: 0;
+}
+.contentitem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    width: 90%;
+    min-height: 150px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 10px 10px rgba(126, 123, 123, 0.5);
+}
+.cardBx{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 95%;
+    margin: 10px auto;
+    min-height: 6rem;
+    border-bottom: 1px solid black;
+    justify-content: center;
+    /* box-shadow: 1px 1px 1px 1px rgba(50,50,50,.1); */
+    font-family:'Roboto', sans-serif;
+    /* background-color: rgb(247, 240, 240); */
+}
+.imgBx{
+    /* background-color: rgb(93, 104, 100); */
+    width: 100px;
+    height: 70px;
+    margin: auto;
+}
+.poster{
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+    
+}
+.nameMovie{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* background-color: aquamarine; */
+    width: 270px;
+    margin: auto;
+    /* margin-left: -100px; */
+}
+.nameMovie p{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    /* background-color: rgb(48, 51, 50); */
+    /* margin-left: -100px; */
+}
+.price{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* background-color: aquamarine; */
+    width: 180px;
+    margin: auto;
+}
+.price p{ 
+    margin: auto;
+}
+.count{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* background-color: aqua; */
+    width: 200px;
+    margin: auto;
+    justify-content: center;
+}
+.btncount{
+    width: 1.5rem;
+    height: 2rem;
+    background-color: aqua;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px rgba(50,50,50,.1);
+    margin: 5px;
+}
+.btncount:hover{
+    box-shadow: 1px 1px 1px 1px rgba(50,50,50,.1) inset;
+}
+.btncount:focus{
+    outline: none;
+}
+.countitem{
+    background-color: rgb(224, 213, 213);
+    border: none;
+    border-radius: 5px;
+    width: 3rem;
+    height: 2rem;
+    margin: 5px;
+    text-align: center;
+}
+.btnBx{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.btnClear{
+    
+    width: 20rem;
+    height: 40px;
+    margin: 10px auto;
+    border: none;
+    background-color: rgb(247, 85, 85);
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    
+}
+.btnClear:hover{
+    box-shadow: 1px 1px 1px 1px rgb(75, 73, 73) inset;
+    background-color: rgb(247, 54, 54);
+    outline: none;
+}
+.btnClear:focus{
+    outline: none;
+}
+.btnBuyall{
+    width: 20rem;
+    height: 40px;
+    margin: 10px 10px auto;
+    border: none;
+    background-color: rgb(98, 231, 142);
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    
+}
+.btnBuyall:hover{
+    box-shadow: 1px 1px 1px 1px rgb(75, 73, 73) inset;
+    background-color: rgb(23, 180, 75);
+    outline: none;
+}
+.btnBuyall:focus{
+    outline: none;
+}
+.btnDelete{
+    width: 80px;
+    height: 40px;
+    margin: 10px;
+    border: none;
+    background-color: rgb(247, 85, 85);
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+}
+.btnDelete:hover{
+    box-shadow: 1px 1px 1px 1px rgba(226, 19, 19, 1) inset;
+    background-color: rgb(247, 54, 54);
+    outline: none;
+}
+.btnDelete:focus{
+    outline: none;
+}
+.btnBuy{
+    margin: 5px;
+    width: 80px;
+    height: 40px;
+    margin: auto 5px auto;
+    border: none;
+    background-color: rgb(98, 231, 142);
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btnBuy:hover{
+    box-shadow: 1px 1px 1px 1px rgba(226, 19, 19, 0.5) inset;
+    background-color: rgb(23, 180, 75);
+}
+.btnBuy:focus{
+    outline: none;
+}
+.Emty-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 200px;
+    /* background-color: rgb(245, 241, 236); */
+    margin: 10px auto;
+    border-radius: 5px;
+    font-family:'Roboto', sans-serif;
+}
+.Emty-item h3{
+    font-weight: bold;
+    font-family:'Roboto', sans-serif;
+}
+.imgBankBx{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    /* background-color: aquamarine; */
+}
+.imgbank{
+    width: 100px;
+    height: 70px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.detailBank{
+    font-family:'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    background-color: rgb(42, 221, 96);
+    width: 100%;
+    height: 70px;
+    padding-left: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+.detailKTB{
+    font-family:'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    background-color: rgb(102, 183, 250);
+    width: 100%;
+    height: 70px;
+    padding-left: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+.box{
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+}
+.totalpriceBx{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    font-family:'Roboto', sans-serif;
+    /* background-color: aquamarine; */
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+.totalprice{
+    font-family:'Roboto', sans-serif;
+    font-weight: bold;
+    /* margin-left: 50px; */
+}

@@ -1,0 +1,174 @@
+/* .home{
+    margin: 0;
+    width: 100%;
+    height: 150vh;
+    background-color: aqua;
+    background-image: url("../assets/wall.jpg");
+} */
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px auto;
+    width: 100%;
+    min-height: 150vh;
+    /* background-color: aquamarine; */
+}
+.cardBX{
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 10px auto;
+    width: 14rem;
+    min-height: 30rem;
+    border-radius: 5px;
+    /* border-top-right-radius: 5px; */
+    box-shadow: 1px 1px 1px 1px rgba(50,50,50,.1);
+    font-family:'Roboto', sans-serif;
+    background-color: white;
+}
+
+.cardBX img{
+    width: 100%;
+    height: 70%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.detailBx{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 30%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: white;
+}
+.detailBx .item{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.title{
+    font-family:'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: .9rem;
+    margin: auto;
+}
+.price{
+    font-family: 'Kanit', sans-serif;
+    margin: auto;
+}
+.btbBx{
+    width: 100%;
+    /* background-color: beige; */
+    margin: auto;
+}
+.btbBx .ntn-buy{
+    font-family: 'Kanit', sans-serif;
+    width: 80%;
+    height: 2rem;
+    background-color: rgb(3, 210, 247);
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 1px 1px .5px .5px rgba(50,50,50,.1);
+    font-weight: bold;
+    color: white;
+}
+
+.btbBx .ntn-buy:hover{
+    width: 80%;
+    height: 2rem;
+    background-color: rgb(3, 210, 247);
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 1px 1px .5px .5px rgba(50,50,50,.1) inset;
+    color: rgb(116, 111, 111);
+}
+.imgAlert{
+    margin: auto;
+    width: 150px;
+    height: 150px;
+}
+
+.modal-confirm {		
+	color: #636363;
+	width: 325px;
+	font-size: 14px;
+}
+.modal-confirm .modal-content {
+	padding: 20px;
+	border-radius: 5px;
+	border: none;
+}
+.modal-confirm .modal-header {
+	border-bottom: none;   
+	position: relative;
+}
+.modal-confirm h4 {
+	text-align: center;
+	font-size: 26px;
+	margin: 30px 0 -15px;
+}
+.modal-confirm .form-control, .modal-confirm .btn {
+	min-height: 40px;
+	border-radius: 3px; 
+}
+.modal-confirm .close {
+	position: absolute;
+	top: -5px;
+	right: -5px;
+}	
+.modal-confirm .modal-footer {
+	border: none;
+	text-align: center;
+	border-radius: 5px;
+	font-size: 13px;
+}	
+.modal-confirm .icon-box {
+	color: #fff;		
+	position: absolute;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	top: -70px;
+	width: 95px;
+	height: 95px;
+	border-radius: 50%;
+	z-index: 9;
+	background: #82ce34;
+	padding: 15px;
+	text-align: center;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+.modal-confirm .icon-box i {
+	font-size: 58px;
+	position: relative;
+	top: 3px;
+}
+.modal-confirm.modal-dialog {
+	margin-top: 80px;
+}
+.modal-confirm .btn {
+	color: #fff;
+	border-radius: 4px;
+	background: #82ce34;
+	text-decoration: none;
+	transition: all 0.4s;
+	line-height: normal;
+	border: none;
+}
+.modal-confirm .btn:hover, .modal-confirm .btn:focus {
+	background: #6fb32b;
+	outline: none;
+}
+.trigger-btn {
+	display: inline-block;
+	margin: 100px auto;
+}
