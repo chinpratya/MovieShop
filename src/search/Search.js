@@ -84,7 +84,9 @@ export default function Search(props) {
               src={`https://image.tmdb.org/t/p/w500/${data.poster_path}`}
               alt=""
             />
-            <Link to={`/detail/${data.id}`} ><p className='title'>{data.original_title}</p></Link>
+            <Link to={`/detail/${data.id}`}>
+              <p className="title">{data.original_title}</p>
+            </Link>
             <p className="price">
               ราคา : {Math.ceil((data.vote_average + 3) * 100)} บาท
             </p>
